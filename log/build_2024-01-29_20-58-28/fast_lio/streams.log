@@ -1,0 +1,51 @@
+[0.196s] Invoking command in '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio': /usr/bin/cmake /home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/install/fast_lio
+[2.380s] -- The C compiler identification is GNU 9.4.0
+[3.480s] -- The CXX compiler identification is GNU 9.4.0
+[3.511s] -- Check for working C compiler: /usr/bin/cc
+[3.643s] -- Check for working C compiler: /usr/bin/cc -- works
+[3.646s] -- Detecting C compiler ABI info
+[3.764s] -- Detecting C compiler ABI info - done
+[3.783s] -- Detecting C compile features
+[3.795s] -- Detecting C compile features - done
+[3.803s] -- Check for working CXX compiler: /usr/bin/c++
+[3.913s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.914s] -- Detecting CXX compiler ABI info
+[4.011s] -- Detecting CXX compiler ABI info - done
+[4.026s] -- Detecting CXX compile features
+[4.026s] -- Detecting CXX compile features - done
+[4.027s] Current CPU archtecture: x86_64
+[4.142s] Processer number:  6
+[4.142s] core for MP: 3
+[4.884s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found version "3.8.10") 
+[4.983s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[5.029s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[5.029s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.361s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[5.404s] CMake Warning (dev) at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[5.404s]   Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake
+[5.404s]   --help-policy CMP0057" for policy details.  Use the cmake_policy command to
+[5.404s]   set the policy and suppress this warning.
+[5.404s] 
+[5.404s]   IN_LIST will be interpreted as an operator when the policy is set to NEW.
+[5.404s]   Since the policy is not set the OLD behavior will be used.
+[5.404s] Call Stack (most recent call first):
+[5.404s]   /opt/ros/galactic/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[5.404s]   /opt/ros/galactic/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[5.404s]   CMakeLists.txt:50 (find_package)
+[5.404s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.404s] 
+[5.405s] CMake Error at /opt/ros/galactic/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):
+[5.405s]   if given arguments:
+[5.405s] 
+[5.405s]     "NOT" "element" "IN_LIST" "rclcpp_INCLUDE_DIRS"
+[5.405s] 
+[5.405s]   Unknown arguments specified
+[5.405s] Call Stack (most recent call first):
+[5.405s]   /opt/ros/galactic/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake:34 (list_append_unique)
+[5.405s]   /opt/ros/galactic/share/rclcpp/cmake/rclcppConfig.cmake:41 (include)
+[5.405s]   CMakeLists.txt:50 (find_package)
+[5.405s] 
+[5.405s] 
+[5.405s] -- Configuring incomplete, errors occurred!
+[5.405s] See also "/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio/CMakeFiles/CMakeOutput.log".
+[5.411s] Invoked command in '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio' returned '1': /usr/bin/cmake /home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/install/fast_lio

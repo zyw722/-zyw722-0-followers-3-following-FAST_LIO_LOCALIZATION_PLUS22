@@ -1,0 +1,127 @@
+[0.181s] Invoking command in '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio': /usr/bin/cmake /home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/install/fast_lio
+[0.194s] Current CPU archtecture: x86_64
+[0.198s] Processer number:  6
+[0.198s] core for MP: 3
+[0.207s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.233s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.298s] -- Found rclcpp: 9.2.2 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.720s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.794s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.215s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.254s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.500s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.731s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.764s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.860s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.903s] -- Looking for pthread.h
+[2.005s] -- Looking for pthread.h - found
+[2.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.111s] -- Found Threads: TRUE  
+[2.606s] -- Found rclcpp_components: 9.2.2 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[2.855s] -- Found geometry_msgs: 2.2.4 (/opt/ros/galactic/share/geometry_msgs/cmake)
+[2.944s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[3.161s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[3.341s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[3.418s] -- Found visualization_msgs: 2.2.4 (/opt/ros/galactic/share/visualization_msgs/cmake)
+[3.607s] -- Found pcl_ros: 2.4.1 (/usr/local/share/pcl_ros/cmake)
+[4.754s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[4.789s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[5.629s] -- Checking for module 'eigen3'
+[5.645s] --   Found eigen3, version 3.3.7
+[5.694s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.694s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[5.768s] -- Checking for module 'flann'
+[5.799s] --   Found flann, version 1.9.1
+[5.846s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.968s] -- The imported target "vtkParseOGLExt" references the file
+[5.968s]    "/usr/bin/vtkParseOGLExt-7.1"
+[5.968s] but this file does not exist.  Possible reasons include:
+[5.968s] * The file was deleted, renamed, or moved to another location.
+[5.968s] * An install or uninstall procedure did not complete successfully.
+[5.968s] * The installation package was faulty and contained
+[5.968s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.968s] but not all the files it references.
+[5.968s] 
+[5.969s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[5.969s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[5.969s] but this file does not exist.  Possible reasons include:
+[5.969s] * The file was deleted, renamed, or moved to another location.
+[5.969s] * An install or uninstall procedure did not complete successfully.
+[5.969s] * The installation package was faulty and contained
+[5.969s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.969s] but not all the files it references.
+[5.969s] 
+[5.970s] -- The imported target "vtk" references the file
+[5.970s]    "/usr/bin/vtk"
+[5.970s] but this file does not exist.  Possible reasons include:
+[5.970s] * The file was deleted, renamed, or moved to another location.
+[5.970s] * An install or uninstall procedure did not complete successfully.
+[5.970s] * The installation package was faulty and contained
+[5.970s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.970s] but not all the files it references.
+[5.971s] 
+[5.971s] -- The imported target "pvtk" references the file
+[5.971s]    "/usr/bin/pvtk"
+[5.971s] but this file does not exist.  Possible reasons include:
+[5.971s] * The file was deleted, renamed, or moved to another location.
+[5.971s] * An install or uninstall procedure did not complete successfully.
+[5.971s] * The installation package was faulty and contained
+[5.971s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[5.971s] but not all the files it references.
+[5.971s] 
+[6.099s] -- Checking for module 'libusb-1.0'
+[6.123s] --   Found libusb-1.0, version 1.0.23
+[6.170s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.255s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.355s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[6.371s] -- Found libusb-1.0: /usr/include  
+[6.380s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.388s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[6.415s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[6.415s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[6.422s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[6.435s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[6.436s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[6.438s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[6.439s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[6.440s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[6.441s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[6.442s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[6.442s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[6.444s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[6.445s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[6.446s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[6.447s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[6.449s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[6.450s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[6.451s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[6.453s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[6.454s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[6.456s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[6.457s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[6.458s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[6.459s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[6.460s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[6.463s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[6.465s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[6.502s] CMake Error at CMakeLists.txt:60 (find_package):
+[6.502s]   By not providing "Findlivox_ros_driver2.cmake" in CMAKE_MODULE_PATH this
+[6.502s]   project has asked CMake to find a package configuration file provided by
+[6.502s]   "livox_ros_driver2", but CMake did not find one.
+[6.502s] 
+[6.503s]   Could not find a package configuration file provided by "livox_ros_driver2"
+[6.503s]   with any of the following names:
+[6.503s] 
+[6.503s]     livox_ros_driver2Config.cmake
+[6.503s]     livox_ros_driver2-config.cmake
+[6.503s] 
+[6.503s]   Add the installation prefix of "livox_ros_driver2" to CMAKE_PREFIX_PATH or
+[6.503s]   set "livox_ros_driver2_DIR" to a directory containing one of the above
+[6.503s]   files.  If "livox_ros_driver2" provides a separate development package or
+[6.503s]   SDK, be sure it has been installed.
+[6.503s] 
+[6.503s] 
+[6.505s] -- Configuring incomplete, errors occurred!
+[6.505s] See also "/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio/CMakeFiles/CMakeOutput.log".
+[6.517s] Invoked command in '/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/build/fast_lio' returned '1': /usr/bin/cmake /home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/zhangyuanwei/ws1_livox/src/FAST_LIO_LOCALIZATION_PLUS/install/fast_lio
